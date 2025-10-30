@@ -16,7 +16,7 @@ const Book = ({ book, isPurchased }: BookProps) => {
   const { data: session } = useSession();
   const user: User = session?.user as User;
   const router = useRouter();
-  console.log('isPurchased: ', isPurchased);
+
   const startCheckout = async () => {
     try {
       const response = await fetch(

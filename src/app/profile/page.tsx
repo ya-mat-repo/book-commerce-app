@@ -23,8 +23,6 @@ export default async function ProfilePage() {
         return await getDetailBook(purchase.bookId);
       })
     );
-
-    console.log('purchasesDetailBooks: ', purchasesDetailBooks);
   }
 
   return (
