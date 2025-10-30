@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { getDetailBook } from '@/app/lib/microcms/client';
 import Image from 'next/image';
 
